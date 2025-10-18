@@ -113,3 +113,21 @@ footer {
    width:100px;
    padding: 20vw;
 }
+
+/* ruins the website */
+
+.lock {
+ width: 100vw;
+ height: 100vh;
+ pointer-events: none;
+ overflow: hidden;
+ transform: rotateZ(4deg);
+
+}
+
+marquee>img {
+    height: 50vh;
+    width: auto;
+
+
+}

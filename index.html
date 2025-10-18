@@ -9,7 +9,7 @@
    
    <body>
 
-    <marquee>
+    <marquee scrollamount="15">
     </marquee>
 
         <div id="content"> 
@@ -33,7 +33,7 @@
                     <a href="https://steamcommunity.com/id/MexicanShinji/" target="_blank">Steam</a>
                     <a href="Images/ref.png" target="_blank"> Reference</a>
                     <a href="https://discord.com/invite/fE7zEFweXT" target="_blank">Discord</a>
-                    <a href="https://raid.report/pc/4611686018491110263" target="_blank">Voices</a>
+                    <a href="https://op.gg/lol/summoners/na/Kaneel-0804" target="_blank">Voices</a>
                     
                 </div>
 
@@ -70,12 +70,12 @@
                         <br><br>Q:How long have you been drawing?
                         <br>A: Realistically since i was a child. More seriously since 2017
 
-                        <br><br>Q: Favorite Gambit build?
-                        <br>A: Becoming my favorite after winning mostly with it i really enjoy prismastic hunter with HOIL+Synthosteps!
-                        <br>The weapons hardly matter just bring xenophage xd
+                        <br><br>Q: Why league of legends?
+                        <br>A: Love MOBAs can't really stand DOTA 2 so league is the natural follow up
+                        <br><br> No i'm not gonna fucking play "Smite" or whatever else you wanna suggest
 
             
-                        <br><br><br><br>Thanks for visiting my website that i was forced to make! :3
+                        <br><br><br>Thanks for visiting my website that i was forced to make! :3
                         
                             
                     </p>
@@ -107,8 +107,9 @@
             //This is cause firefox users are annoying asf
 
             if(window.navigator.userAgent.toLowerCase().includes("firefox")) {
-            document.querySelector ("marquee").innerHTML='<img src="Images/FIREFOXUSER.jpg">'
-            setTimeout (()=>{window.location="https://youtu.be/XaA0O5YEwxQ"},20000)      
+                document.querySelector ("marquee").innerHTML='<img src="Images/FIREFOXUSER.jpg">'
+                document.querySelector ("body").classList.add("lock") 
+                setTimeout (()=>{window.location="https://youtu.be/XaA0O5YEwxQ"},5000)      
             }
         </script>
 
