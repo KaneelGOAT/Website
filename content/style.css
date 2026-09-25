@@ -62,8 +62,10 @@ a:active, a:hover {
 }
 .generictxt {
     display: block;
-    text-align: center;
+    padding: 5px;
     font-size: 1.3rem;
+    text-align: left
+
 
 }
 
@@ -110,4 +112,24 @@ footer {
         color: red;
         background-color: white;
     }
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links > a {
+    background-color: var(--c-crepe-fur-alt);
+    color: white;
+    padding: 10px;
+    flex-grow: 1;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.links > a:hover {
+    background-color: var(--c-phoinix-orange);
+    color: white;
 }
