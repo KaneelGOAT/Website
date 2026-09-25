@@ -1,0 +1,113 @@
+@import url("./reset.css");
+
+:root {
+    --c-primary-bg: #c5c4b0;
+    --c-crepe-fur: #f6f1df;
+    --c-crepe-fur-alt: #746858;
+    --c-bahamut-blue: #39769A;
+    --c-phoinix-orange: #EC8948;
+    --c-box-bg: #353535;
+    --c-dark-red: #4b1e28;
+    --c-soft-red: #943146;
+    --c-crepe-yellow: #dfbc5d
+}
+
+html, body {
+    background-color: var(--c-primary-bg);
+}
+main {
+    color: var(--c-box-bg);
+}
+
+a, a:visited {
+ color: var(--c-bahamut-blue);
+}
+
+a:active, a:hover {
+ color: var(--c-phoinix-orange);
+}
+
+
+/* MY CHUD SON IS A TEXT UNIT :D */
+.titletext {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+/* change this to rem blue later */
+.remcountdowntxt {
+    font-size: 1.5rem;
+    color: aqua;
+    background-color: var(--c-box-bg);
+    padding: 4px 10px;
+    border-radius: 14px;
+}
+
+.boxtitle {
+    font-size: 2.4rem;
+}
+
+#mainbox {
+    display: flex;
+    gap: 15px;
+}
+
+.aboutme {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 5px;
+
+}
+.generictxt {
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+#mainbox > img {
+    border: 6px;
+    border-color: var(--c-soft-red);
+    border-style: ridge;
+    object-fit: cover;
+}
+
+div.box {
+
+    background-color: var(--c-crepe-fur);
+    width: min(80vw, 952px);
+    box-shadow: rgb(53 53 53 / 0.45) 15px 8px;
+    padding: 14px;
+    border-radius: 14px;
+    margin: auto auto 40px;
+    border: var(--c-box-bg) solid 8px;
+}
+
+footer {
+
+}
+
+.HAPPY_BIRTHDAY_REM {
+    animation: ease-in-out rem 0.2s infinite;
+    display: block;
+}
+
+@keyframes rem {
+    0% {
+        transform: rotate(-2deg);
+        color: red;
+        background-color: white;
+    }
+    50% {
+        transform: rotate(2deg);
+        color: white;
+        background-color: red;
+    }
+    100% {
+        transform: rotate(-2deg);
+        color: red;
+        background-color: white;
+    }
+}
