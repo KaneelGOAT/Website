@@ -58,7 +58,6 @@ a:active, a:hover {
     text-align: center;
     font-size: 2.5rem;
     padding: 5px;
-
 }
 .generictxt {
     display: block;
@@ -66,7 +65,14 @@ a:active, a:hover {
     font-size: 1.3rem;
     text-align: left
 
+}
 
+.reftxt {
+    display: block;
+    font-size: 1.3rem;
+    padding: 10px;
+    text-align: center;
+    line-height: 2.4rem;
 }
 
 #mainbox > img {
@@ -132,4 +138,12 @@ footer {
 .links > a:hover {
     background-color: var(--c-phoinix-orange);
     color: white;
+}
+
+.framebox {
+    width: 100%;
+}
+
+.boxsmall {
+   width: min(40vw, 476px) !important;
 }
